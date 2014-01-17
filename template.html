@@ -1,0 +1,65 @@
+<h2>Name of the Program:</h2>
+
+<h3>Tags used:</h3>
+
+<pre><code> &lt;p&gt; - This is paragraph tag. It defines a paragraph.
+ &lt;script&gt; - used to define a client-side script, such as a JavaScript. It contains scripting statements.
+ alert() - An alert box is often used if you want to make sure information comes through to the user.
+</code></pre>
+
+<p>Note: When displaying tags or the code in the markdown file, make sure you leave four spaces from the beginning of the line to display the tags without any special meaning.</p>
+
+<h3>Code:</h3>
+
+<p><em>1a.html</em></p>
+
+<pre><code> &lt;html&gt;
+    &lt;body&gt;
+        &lt;script type="text/javascript"&gt;
+            //initialize variables
+            var fib1=0,fib2=1,fib=0;
+            var n=prompt("enter a number");
+            if(n!=null &amp;&amp; n&gt;0)
+                {
+                    document.write("&lt;h1&gt;First " + n + " fibonacci numbers are: &lt;/h1&gt;&lt;br&gt;");
+                    //if input is one number
+                    if(n==1)
+                        document.write("&lt;h1&gt;" + fib1 + "&lt;/h1&gt;&lt;br&gt;");
+                    //if input is two numbers
+                    else
+                        document.write("&lt;h1&gt;" + fib1 + "&lt;/h1&gt;&lt;br&gt;&lt;h1&gt;" + fib2 + "&lt;/h1&gt;&lt;br&gt;");
+                        //if input is more than two numbers, find the next Fibonacci number
+                        for(i=3;i&lt;=n;i++)
+                            {
+                                fib=fib1+fib2;
+                                document.write("&lt;h1&gt;" + fib + "&lt;/h1&gt;&lt;br&gt;");
+                                fib1=fib2;
+                                fib2=fib;
+                            }
+                }
+            else
+                alert("No proper input");
+        &lt;/script&gt;
+    &lt;/body&gt;
+ &lt;/html&gt;
+</code></pre>
+
+<h3>Output:</h3>
+
+<p><em>Steps for checking output-</em></p>
+
+<ul>
+<li>Locate the file in the filesystem.</li>
+<li><code>Right-click</code> on the file and select <code>open-with</code> firefox/iceweasel/chromium/chrome.</li>
+<li>Input the value and observe the output.</li>
+</ul>
+
+<h3>Screenshots:</h3>
+
+<p><img src="1_a.png" alt="input_1" title="" /></p>
+
+<p><img src="1_b.png" alt="input_2" title="" /></p>
+
+<p><img src="1_c.png" alt="output" title="" /></p>
+
+<p><img src="1_d.png" alt="no_input" title="" /></p>
