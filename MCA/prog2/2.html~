@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="e.css"/>
+<style type="text/css">
+p{text-align:center;}
+ul{list=style_type:circle;}
+#para1{font_style:italic;}
+</style>
+</head>
+<body>
+<h1>Welcome to Web Programming</h1>
+<h3>About World Wide Web</h3>
+<p id="para1">
+<pre>In late 1994 Berners-Lee started the world Wide Web Consortium(W3C), which had as one of its primary purposes to develop and distribute standards for web technologies, starting with HTML. The first HTML standard, HTML 2.0 was released in 1995. It was followed by HTML 3.2 in early 1997.</pre>
+</p>
+<p class="add">The latest version of HTML, 4.01 was approved by W3C in late 1999. The XHTML 1.0 standard was approved in early 2000. XHTML 1.0 is a redefinition of HTML 4.01 using XML</p>
+<p>Contents</p>
+<ul>
+<li>Introduction to XHTML</li>
+<li style="font-style:italic;">Cascading Style Sheets</li>
+<li>The Basics of Javascript</li>
+
+
+<li>Javascript and XHTML Documents</li>
+</ul>
+</body>
+</html>
