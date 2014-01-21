@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+<title>Random Numbers </title>
+<script type="text/javascript">
+  function randomnumber(num1,num2)
+{
+   num1=parseInt(num1);
+   num2=parseInt(num2);
+    if(num1>=num2)
+{
+alert("Number 2 sholud be greater than Number 1");
+ }
+ else
+{
+  var generator=Math.random()*(num2-num1);
+  generator=Math.round(num1+generator);
+  document.test.result.value=generator;
+ }
+</script>
+</head>
+<body bgcolor="powderblue">
+<form name="test">
+<p><b><u>RANDOM NUMBERS </u></b></p>
+
+<input name="one" type="text" size="3"/>
+<input name="two" type="text" size="3"/>
+<input type="button" value="TEST" onclick="randomnumber(one.value,two.value);"> <br/><br/>
+Test Result:<input name="result readonly" type="text" size="10"/> <br/><br/>
+<input type="reset" value="clear"/>
+</form>
+</body>
+</html>

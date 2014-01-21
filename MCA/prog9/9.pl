@@ -1,0 +1,23 @@
+#!/usr/bin/perl
+print "Content-type:text/html\n\n";
+$number=46;
+$square="2^3=8";
+$string="Welcome to web...!";
+$substring1="Welcome to";
+$substring2="Perl....!";
+$linebreak="<br/>";
+@days=("Monday","Tuesday","Wednesday");
+@months=("April","May","June");
+print "<h2>"."Demonstration of Scalar variables and Arrays"."</h2>";
+print "<h4>".$number."</h4>";
+print "<h4>".$linebreak."</h4>";
+print "<h4>".$square."</h4>";
+print "<h4>".$linebreak."</h4>";
+print "<h4>".$string."</h4>";
+print "<h4>".$linebreak."</h4>";
+print "<h4>".$substring1.$substring2."</h4>";
+print "<h4>".$linebreak."</h4>";
+print "<h4>".$linebreak."</h4>";
+print @days;
+print "<br/>";
+print @months;
